@@ -90,9 +90,9 @@ transform:scale(1.03);
 Send Message To Game Chat
 </div>
 
-<input id="name" placeholder="Enter Nickname">
+<input id="name" placeholder="Game Name">
 
-<input id="message" placeholder="Enter Message">
+<input id="message" placeholder="UID">
 
 <button onclick="sendMessage()">
 SEND MESSAGE
