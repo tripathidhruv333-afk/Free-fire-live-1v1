@@ -1,1 +1,41 @@
 # Free-fire-live-1v1
+<!DOCTYPE html>
+<html>
+<head>
+<title>Minecraft Chat</title>
+</head>
+<body>
+
+<h2>Send Message To Minecraft</h2>
+
+<input id="Gamename" placeholder="Game name"><br><br>
+
+<input id="JAVA OR PE ?" placeholder="JAVA?-&-PE?"><br><br>
+
+<button onclick="sendMessage()">Submit</button>
+
+<script>
+function sendMessage() {
+
+const name =
+document.getElementById("Game name").value;
+
+const msg =
+document.getElementById("JAVA?-&-PE?").value;
+
+fetch("https://discord.com/api/webhooks/1552253833030148097/qofzc9zLKK7JMw5NcbcJQkLSQxJWFm9hBl9lagG5nwmp9bL4ALcSuMcneKSCsJmjbATy", {
+method: "POST",
+headers: {
+"Content-Type": "application/json"
+},
+body: JSON.stringify({
+content: "[WEB] " + name + ": " + msg
+})
+});
+
+alert("Message Sent!");
+}
+</script>
+
+</body>
+</html>
