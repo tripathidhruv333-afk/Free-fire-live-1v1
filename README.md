@@ -128,3 +128,17 @@ alert("Message Sent!");
 
 </body>
 </html>
+</script>
+
+<br><br>
+
+<center>
+<a href="https://www.youtube.com/@PhonixAura-g4i" target="_blank">📺 YouTube</a>
+|
+<a href="https://www.instagram.com/phoonnixx?stkn=MW82aWluejAzYzZ0ZQ==" target="_blank">📸 Instagram</a>
+|
+<a href="https://discord.gg/uYeVDByQQZ" target="_blank">💬 Discord</a>
+</center>
+
+</body>
+</html>
